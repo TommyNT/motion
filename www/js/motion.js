@@ -17,6 +17,4 @@ function onError() {
 	alert('onError!');
 }
 
-function checkMotion(){
-	navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
-}
+navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
